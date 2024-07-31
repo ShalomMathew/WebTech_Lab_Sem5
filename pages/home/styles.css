@@ -16,8 +16,43 @@ header {
     max-width: 200px;
 }
 
+/* General Nav-Bar */
+.primary-nav {
+    background: black;
+    color: white;
+    padding: 0 0;
+}
+
+.primary-nav ul {
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-nav ul li {
+    margin: 0 13px;
+}
+
+.primary-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.1s ease;
+}
+
+.primary-nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Page Nav-Bar */
 nav {
     background-color: black;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
 }
 
 nav ul {
@@ -37,11 +72,14 @@ nav ul li a {
     text-decoration: none;
     padding: 14px 20px;
     display: block;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
     background-color: white;
+    color: #4CAF50; /* Change text color to black when hovered */
 }
+
 
 main {
     padding: 20px;

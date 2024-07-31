@@ -1,0 +1,163 @@
+/* General Reset and Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+/* Primary Navigation Bar */
+.primary-nav {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.primary-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-nav ul li {
+    margin: 0 15px;
+}
+
+.primary-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Contact Form Section */
+#contact {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#contact h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white; 
+    padding: 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+    flex: 100px;
+    margin: 0 50px; 
+}
+
+.footer-left h2, .footer-right h2 {
+    border-bottom: 2px solid #4CAF50; 
+    padding-bottom: 5px;
+    margin-bottom: 10px; 
+}
+
+.footer-right {
+    text-align: right;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+    transition: color 0.1s ease; 
+}
+
+a:hover {
+    color: #4CAF50; 
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    margin-left: 10px; 
+    text-decoration: none;
+    color: white; 
+}
+
+.social-icon:hover {
+    color: #4CAF50; 
+}

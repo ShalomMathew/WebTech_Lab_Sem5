@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkiPharma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="../../assets/images/SkiPharma_Logo.png" alt="SkiPharma Logo" class="logo">
+    </header>
+    <nav class="primary-nav">
+        <ul>
+            <li><a href="../home/home.html">Home</a></li> 
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="regno">Registration Number:</label>
+            <input type="text" id="regno" name="regno" required>
+
+            <label for="dept">Department:</label>
+            <input type="text" id="dept" name="dept" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer (Optional) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h2>Contact Us</h2>
+                <p>Email: contact@skipharma.com</p>
+                <p>Phone: +91 99999 54321</p>
+                <p>Address: Karunya Institute of Technology & Science, Karunya Nagar, Coimbatore - 641114</p>
+            </div>
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <div class="social-links">
+                    <a href="#" class="social-icon" id="facebook">Facebook</a>
+                    <a href="#" class="social-icon" id="twitter">Twitter</a>
+                    <a href="#" class="social-icon" id="instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

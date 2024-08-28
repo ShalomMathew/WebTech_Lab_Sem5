@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkiPharma Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation Bar -->
+    <header class="bg-success text-white text-center py-4">
+        <img src="../../assets/images/SkiPharma_Logo.png" alt="SkiPharma Logo" class="img-fluid">
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../home/home.html">SkiPharma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../products/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../blog/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <!-- Introduction Section -->
+        <section>
+            <h2>About SkiPharma</h2>
+            <p>
+                Welcome to SkiPharma, a leading provider of innovative pharmaceutical solutions. Our mission is to deliver the highest quality products to meet the healthcare needs of people worldwide. With state-of-the-art facilities and a dedicated team of experts, we are committed to improving lives through our extensive range of medications and healthcare products.
+            </p>
+        </section>
+
+        <!-- Video and Content Section -->
+        <section class="row align-items-center my-5">
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/spyGgSmvJnw" title="Karunya Campus" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Our Facilities and Technologies</h3>
+                <p>
+                    At SkiPharma, we take pride in our cutting-edge technologies and world-class facilities. Located in the heart of the city, our campus is equipped with the latest in pharmaceutical research and development tools, ensuring that we remain at the forefront of the industry. We are dedicated to innovation, quality, and customer satisfaction.
+                </p>
+            </div>
+        </section>
+       
+        <!-- Three Boxes Section -->
+        <section class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <h5>Our Location</h5>
+                    <p>123 Pharma Street, MedCity</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@skipharm.com<br>Phone: +123 456 7890</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <h5 class="mb-3">Explore Our Products</h5> <!-- Added 'mb-3' to create space -->
+                    <a href="../products/products.html" class="btn btn-success">View Products</a>
+                </div>
+            </div>       
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section class="my-5">
+            <h3 class="text-center">We Value Your Feedback</h3>
+            <div class="d-flex justify-content-center">
+                <form class="w-50">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your feedback"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 SkiPharma. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

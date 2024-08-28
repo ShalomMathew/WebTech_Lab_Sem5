@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header img {
+    max-width: 200px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black; /* Default background color of navbar */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Default text color */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #fff; /* Background color on hover */
+    color: #28a745; /* Text color on hover */
+}
+
+/* Introduction Section */
+h2 {
+    color: #28a745;
+}
+
+/* Video Section */
+.ratio {
+    background-color: #000;
+}
+
+/* Three Boxes */
+section.row.text-center .col-md-4 .h-100 {
+    transition: transform 0.3s ease;
+}
+
+section.row.text-center .col-md-4 .h-100:hover {
+    transform: scale(1.05);
+}
+
+/* Feedback Form */
+form .form-control {
+    border-radius: 0.5rem;
+}
+
+form .btn-success {
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
